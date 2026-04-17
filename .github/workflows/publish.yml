@@ -135,3 +135,4 @@ jobs:
         run: |
           echo "manifest_url: ${{ needs.build-and-release.outputs.manifest_url }}" >> "${GITHUB_STEP_SUMMARY}"
 
+# Registration nudge: force GitHub to (re-)index this workflow after Actions was enabled.
