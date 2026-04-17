@@ -1,0 +1,44 @@
+{
+  "source": {
+    "source_id": "sample-tools",
+    "name": "Sample Tools",
+    "homepage": "https://example.com/sample-tools"
+  },
+  "packages": [
+    {
+      "package_id": "hello_world",
+      "name": "Hello World",
+      "version": "1.0.0",
+      "artifact_type": "py",
+      "source_path": "packages/hello_world.py",
+      "entry_script": "hello_world.py",
+      "description": "Single-file sample package.",
+      "tags": [
+        "sample",
+        "py"
+      ],
+      "category": "Examples",
+      "author": "Publisher Starter",
+      "blender_version_min": "4.4.0",
+      "homepage": "https://example.com/sample-tools/hello-world"
+    },
+    {
+      "package_id": "hello_zip",
+      "name": "Hello Zip",
+      "version": "1.0.0",
+      "artifact_type": "zip",
+      "source_path": "packages/hello_zip",
+      "entry_script": "hello_zip/main.py",
+      "description": "Directory-backed ZIP sample package.",
+      "tags": [
+        "sample",
+        "zip"
+      ],
+      "category": "Examples",
+      "author": "Publisher Starter",
+      "blender_version_min": "4.4.0",
+      "homepage": "https://example.com/sample-tools/hello-zip"
+    }
+  ]
+}
+
