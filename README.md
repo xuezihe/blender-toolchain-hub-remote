@@ -74,6 +74,11 @@ The final `manifest_url` shape is:
 https://<owner>.github.io/<repo>/manifest.json
 ```
 
+Example: For the current repository `https://github.com/xuezihe/blender-toolchain-hub-remote`, the manifest URL is:
+
+```text
+https://xuezihe.github.io/blender-toolchain-hub-remote/manifest.json
+```
 ## Non-GitHub CI
 
 If your team uses another CI platform, keep the same contract:

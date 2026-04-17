@@ -2,7 +2,7 @@
   "source": {
     "source_id": "sample-tools",
     "name": "Sample Tools",
-    "homepage": "https://example.com/sample-tools"
+    "homepage": "https://github.com/xuezihe/blender-toolchain-hub-remote"
   },
   "packages": [
     {
@@ -20,7 +20,7 @@
       "category": "Examples",
       "author": "Publisher Starter",
       "blender_version_min": "4.4.0",
-      "homepage": "https://example.com/sample-tools/hello-world"
+      "homepage": "https://github.com/xuezihe/blender-toolchain-hub-remote"
     },
     {
       "package_id": "hello_zip",
@@ -37,7 +37,25 @@
       "category": "Examples",
       "author": "Publisher Starter",
       "blender_version_min": "4.4.0",
-      "homepage": "https://example.com/sample-tools/hello-zip"
+      "homepage": "https://github.com/xuezihe/blender-toolchain-hub-remote"
+    },
+    {
+      "package_id": "fcurve_jerk_analyzer",
+      "name": "F-Curve Jerk Analyzer",
+      "version": "1.0.0",
+      "artifact_type": "py",
+      "source_path": "packages/fcurve_jerk_analyzer.py",
+      "entry_script": "fcurve_jerk_analyzer.py",
+      "description": "Analyzes animation F-Curves to detect the most jittery/unstable curves around the current frame.",
+      "tags": [
+        "animation",
+        "analysis",
+        "fcurve"
+      ],
+      "category": "Animation",
+      "author": "xuezihe",
+      "blender_version_min": "4.4.0",
+      "homepage": "https://github.com/xuezihe/blender-toolchain-hub-remote"
     }
   ]
 }
